@@ -59,7 +59,7 @@ body {
 }
 
 /* Scroll To Bottom */
-#codepen, #portfolio {
+#circle2, #circle1 {
   position: fixed;
   bottom: 30px;
   right: 30px;
@@ -73,15 +73,15 @@ body {
   color: #ffffff;
   text-align: center;
 }
-#codepen i, #portfolio i {
+#circle2 i, #circle1 i {
   line-height: 56px;
 }
-#codepen:hover, #portfolio:hover {
+#circle2:hover, #circle1:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-/* CodePen */
-#portfolio {
+/* circle2 */
+#circle1 {
   bottom: 96px;
   right: 36px;
   background: #373737;
@@ -90,7 +90,7 @@ body {
   -webkit-animation: buttonFadeInUp 1s ease;
   animation: buttonFadeInUp 1s ease;
 }
-#portfolio i {
+#circle1 i {
   line-height: 44px;
 }
 
